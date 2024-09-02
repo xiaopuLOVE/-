@@ -1,0 +1,15 @@
+.弹窗 {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 40%;
+    height: 18.75rem;
+    background: lightblue;
+    position: absolute;
+    padding: 2.5rem 2.5rem;
+    left: 30%;
+    top: 35%;
+    border-radius: 1.70rem;
+    overflow: scroll;
+}

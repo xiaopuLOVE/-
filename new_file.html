@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="new_file.css">
+		</head>
+		
+    
+    <body>
+			<audio autoplay loop preload="auto" src="音量-Record_2024-08-08-01-17-47_69cdb90e184b6179c4f.mp3">
+			</audio>
+			<div class="弹窗">
+
+            <button id="关闭">&times;</button>
+            <h2>我的好朋友米饭</h2>
+            <p>点击下方链接了解更多</p>
+			<p>👇👇👇👇👇👇👇👇👇👇</p>
+            <a href="网站.html">了解详情</a>
+      </div>
+			<script>
+    window.addEventListener("load", function(){
+                        setTimeout(
+                            function open(event){
+                                document.querySelector(".弹窗").style.display = "flex";
+                            },
+                            500
+                        )
+                    });
+                   document.querySelector("#关闭").addEventListener("click", function(){
+                    document.querySelector(".弹窗").style.display = "none";
+                   });
+				   
+			</script>
+			
+				
+</html> 
